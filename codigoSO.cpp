@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <pthread.h>
 
-pthread_mutex_t mutex;  // Declarandop una variable mutex para la sincronización de los hilos
+pthread_mutex_t mutex;  // Declarando una variable mutex para la sincronización de los hilos
 int c = 0;  // Variable global compartida entre hilos para contar
 
 void* funcion(void* p1);  // Realizando prototipo de función para el hilo hijo
